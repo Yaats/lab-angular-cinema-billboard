@@ -1,3 +1,20 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <header>
+    <h1>Cinema Billboard</h1>
+  
+    <br>
+
+    <nav>
+      <a routerLink="/">Home</a>
+      <a routerLink="/movies">Movie list</a>
+    </nav>
+  </header>
+  
+  <br>
+  
+  <router-outlet></router-outlet>
+  
+  <footer>
+    <p>Made with 👾 at Ironhack</p>
+  </footer>
+</div>
